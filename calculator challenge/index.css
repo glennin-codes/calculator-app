@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,rgb(117, 34, 84),rgb(4, 7, 31), rgb(11, 104, 11),rgb(2, 5, 0));
+    height: 100vh;
+}
+ .case{
+    height: 300px;
+    width:300px;
+    background: lightcyan;
+    margin-top: 60px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    
+    
+ }
+    .nums{
+        margin: 20px 20px;
+         left:40%;
+      position: relative;
+      transform: translateX( -10%);
+      color: blue;
+        
+    }
+    #num1-el{
+       
+        
+        border-bottom: 1px solid  black;
+    }
+    #num2-el{
+        border-bottom: 1px solid black;
+    }
+   .action{
+      
+     
+      font-family: montserrat;
+      margin: 0;
+      color: red;
+     
+      
+      
+   }
+    #add{
+        position: absolute;
+        left:50px;
+        width: 80px;
+        margin-left: -40px;
+        color: red;
+        
+
+    }
+     #subtract{
+        position: absolute;
+        left: 40%;
+        margin-top: 60px;
+       color: red;
+       width: 80px;
+       margin-left: -10px;
+
+
+     } 
+     #divide{
+        position: absolute;
+        left: 40%;
+        width: 80px;
+        margin-left: -10px;
+        color: red;
+     }
+     #multply{
+        position: absolute;
+        left: 70%;
+        color: red;
+        width: 80px;
+
+     }#sum{
+    
+        position: absolute;
+        left:40%;
+         margin-top: 100px;
+         width: 80px;
+         color: red;
+     }
+     button{
+         border: 1px solid black;
+          height: 30px;
+          border-radius: 5px;
+          transition: .5s;
+          outline: none;
+          cursor: pointer;
+          background: linear-gradient(120deg, rgb(25, 6, 190),rgb(3, 0, 14));
+
+     }
